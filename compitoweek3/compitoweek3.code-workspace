@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/primevideo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "compitoweek3"
+	}
+}

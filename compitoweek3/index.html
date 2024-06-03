@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylec.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+
+            <div class="d-flex align-items-center">
+                <img src="./W3-P1-Assets-Esercizi/assets/logo.svg" class="navbar-brand" alt="Logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Browse</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Landings</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Accounts</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-nav navbar-account justify-content-end">
+                <li
+                    class="nav-item bg-body-secondary rounded-circle ps-2 pe-2 pt-1 pb-1 me-2 position-relative dropdown">
+                    <span class="span position-absolute ms-4 p-1 bg-primary border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                    <a class="nav-link hidden" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-bell"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item position-relative account-dropdown dropstart ">
+                    <a class="account-badge" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./W3-P1-Assets-Esercizi/assets/avatar-1.jpg" width="30" height="30"
+                            class="d-inline-block align-top notification-img " alt="">
+                    </a>
+                    <span id="access"
+                        class="position-absolute top-100 start-100 translate-middle p-1 bg-success border border-light rounded-circle"></span>
+                    <ul class="dropdown-menu">
+                        <div class="d-flex flex-sm-row flex-column justify-content-between mb-2">
+                            <a class="account-badge size d-inline" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-container ms-2" src="./W3-P1-Assets-Esercizi/assets/avatar-1.jpg"
+                                    class="img-fluid">
+                            </a>
+                            <span
+                                class="position-absolute mt-5 ms-5 p-1 bg-success  border border-light rounded-circle d-sm-none"></span>
+                            <div class="ps-2">
+                                Annette Black
+                                <span class="gray"> annette@geeksui.com</span>
+                            </div>
+                        </div>
+                        <div class="border-top border-bottom">
+                            <li class="d-flex ps-3"><span><i class="bi bi-person"></i></span><a class="dropdown-item"
+                                    href="#">Profile</a></li>
+                            <li class="d-flex ps-3"><span><i class="bi bi-star"></i></span><a class="dropdown-item"
+                                    href="#">Subscription</a></li>
+                            <li class="d-flex ps-3"><span><i class="bi bi-gear"></i></span><a class="dropdown-item"
+                                    href="#">Settings</a></li>
+                        </div>
+                        <li class="d-flex ps-3"><span><i class="bi bi-box-arrow-left"></i></span><a
+                                class="dropdown-item" href="#">Sign Out</a></li>
+                    </ul>
+                </li>
+            </div>
+
+
+
+
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="row no-gutters d-flex">
+
+                <div class="col-md-6 col-lg-5 py-3 d-flex flex-column my-auto  ">
+
+
+                    <h1>Welcome Web Students!</h1>
+                    <p class="text-dark-emphasis ">Hand-picked Instructor and expertly crafted courses, designed for
+                        the
+                        modern students and
+                        entrepreneur.</p>
+                    <div class="d-grid d-flex gap-2">
+                        <button class="green pt-2 pb-2 ps-3 pe-3">Browse Courses</button> <span><button
+                                class="normal pt-2 pb-2 ps-3 pe-3">Are You
+                                Instructor?</button></span>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center  ">
+                    <img src="./W3-P1-Assets-Esercizi/assets/hero-img.png" class="img-fluid" alt="hero">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 shadow-sm bg-white container-fluid ">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 ">
+                <div class="col d-flex mb-4 mb-md-0">
+                    <div class=" bg-warning-subtle rounded-circle ps-4 pe-4 pt-3 pb-2">
+
+                        <i class="bi bi-camera-video "></i>
+                    </div>
+                    <div class="d-flex flex-column ml-2">
+                        <h5>30,000 online courses</h5>
+                        <p class="gray">Enjoy a variety of fresh topics</p>
+                    </div>
+
+                </div>
+                <div class=" col d-flex mb-4 mb-md-0">
+                    <div class="bg-warning-subtle rounded-circle ps-4 pe-4 pt-3 pb-2">
+                        <i class="bi bi-people "></i>
+                    </div>
+                    <div class="d-flex flex-column ml-2">
+                        <h5>Expert instruction</h5>
+                        <p class="gray">Find the right instructor for you</p>
+                    </div>
+
+                </div>
+                <div class="col d-flex mb-4 mb-md-0">
+                    <div class="bg-warning-subtle rounded-circle ps-4 pe-4 pt-3 pb-2">
+                        <i class="bi bi-clock "></i>
+                    </div>
+                    <div class="d-flex flex-column ml-2">
+                        <h5>Lifetime Access</h5>
+                        <p class="gray">Learn on your schedule</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h3>Recommended to you</h3>
+            <div id="carouselExample" class="carousel slide " data-bs-interval="false" data-touch="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="row  d-flex align-items-stretch ">
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-graphql.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column">
+
+                                        <p class="card-text  ">GraphQL:introduction to graphQL for beginners</p>
+                                        <div class="icons d-flex  ">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">2h 40m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary  ms-2 "></i>
+                                            <p class="m-0 ms-2">Advance</p>
+
+
+                                        </div>
+
+                                        <div class="mt-3">
+
+                                            <div class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+                                                <i class="bi bi-star star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">2.5 </p>
+                                                <p class="ms-2 gray small ">(1,500)</p>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <p class="m-0">$500</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$600</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between  ">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-5.jpg"
+                                                    class="img-fluid ">
+
+                                            </div>
+                                            <p class=" align-self-end ">Brooklyn Simmons</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill  gray bookmark-fill"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-javascript.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column">
+                                        <p class="card-text">A complete Beginner's Guide to JavaScript</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">4h 10m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Advance</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">3.5 </p>
+                                                <p class="ms-2 gray small ">(7,500)</p>
+
+                                            </span>
+
+                                        </div>
+                                        <div class=" d-flex mt-3">
+                                            <p class="m-0">$700</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$850</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-1.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class="align-self-end ">Jenny Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-lg-3 ">
+                                <div class="card ">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-node.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">Beginning Node.js, Express & MongoDB Development</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">2h 00m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Intermediate</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex ">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">4.0</p>
+                                                <p class="ms-2 gray small ">(15,700)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class=" d-flex mt-3">
+                                            <p class="m-0">$800</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$950</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-3.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Sina Ray</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card ">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-laravel.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+
+                                        <p class="card-text">Laravel:The Ultimate Beginner's Guide to Learn</p>
+                                        <div class="icons d-flex ">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">1h 00m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Beginner</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star "></i>
+                                                <i class="bi bi-star-half star"></i>
+
+
+                                                <p class="m-0 ms-2 star">4.5 </p>
+                                                <p class="ms-2 gray small ">(2,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class=" d-flex mt-3">
+                                            <p class="m-0">$170</p>
+                                            <p class="text-muted m-0 ms-1 "><del class="small gray">$220</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-7.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Sobo Rikhan</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row align-items-stretch d-flex">
+                            <div class="col-6 col-lg-3 ">
+                                <div class="card ">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-laravel.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+
+                                        <p class="card-text">Laravel:The Ultimate Beginner's Guide to Learn</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">1h 00m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Beginner</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star "></i>
+                                                <i class="bi bi-star-half star"></i>
+
+
+                                                <p class="m-0 ms-2 star">4.5 </p>
+                                                <p class="ms-2 gray small ">(7,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class=" d-flex mt-3">
+                                            <p class="m-0">$170</p>
+                                            <p class="text-muted m-0 ms-1 "><del class="small gray">$220</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-4.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class="align-self-end ">Miston Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="container">
+            <h3>Most Popular</h3>
+            <div id="myCarousel" class="carousel slide" data-bs-interval="false" data-touch="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active  ">
+                        <div class="row gy-3 d-flex align-items-stretch ">
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-html.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">HTML Full Course - Build a Website Tutorial</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">3h 16m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2"> Beginner</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star "></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star star"></i>
+                                                <i class="bi bi-star star"></i>
+                                                
+
+
+                                                <p class="m-0 ms-2 star">3.0 </p>
+                                                <p class="ms-2 gray small ">(1,600)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3">
+                                            <p class="m-0">$550</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$700</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-8.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Miston Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-javascript.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">A complete Beginner's Guide to JavaScript</p>
+
+
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">4h 10m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Advance</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">3.5</p>
+                                                <p class="ms-2 gray small ">(7,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3">
+                                            <p class="m-0">$700</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$850</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-1.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Jenny Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-node.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">Beginning Node.js, Express & MongoDB Development</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">2h 00m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Intermediate</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">4.0 </p>
+                                                <p class="ms-2 gray small ">(15,700)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex mt-3">
+                                            <p class="m-0">$800</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$950</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-3.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Sina Ray</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-react.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">How to easily create a website with React</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">3h 55m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Advance</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+
+
+                                                <p class="m-0 ms-2 star">4.5</p>
+                                                <p class="ms-2 gray small ">(1,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3">
+                                            <p class="m-0">$600</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$750</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-2.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">April Noms</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row gy-3 d-flex align-items-stretch ">
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-react.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">How to easily create a website with React</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">3h 55m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Advance</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+
+
+                                                <p class="m-0 ms-2 star">4.5</p>
+                                                <p class="ms-2 gray small ">(16,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3">
+                                            <p class="m-0">$600</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$750</del>
+                                            </p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-4.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class="align-self-end ">Jenny Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev  " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="container ">
+            <h3>Trending</h3>
+            <div id="carousel" class="carousel slide" data-bs-interval="false" data-touch="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="row  d-flex align-items-stretch">
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-gatsby.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">Revolutionize how you build the web</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">1h 46m</p>
+                                            <i class="bi bi-bar-chart-fill  text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Intermediate</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star star"></i>
+                                                <i class="bi bi-star star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">2.0</p>
+                                                <p class="ms-2 gray small ">(16,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex mt-3 ">
+                                            <p class="m-0">$800</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$850</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-6.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class="align-self-end ">Jenny Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-html.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column ">
+                                        <p class="card-text">HTML Full Course - Build a Website Tutorial</p>
+                                        <div class="icons d-flex ">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">3h 16m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Beginner</p>
+
+
+                                        </div>
+                                        <div class=" mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star">3.0</p>
+                                                <p class="ms-2 gray small ">(1,600)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3">
+                                            <p class="m-0">$550</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$700</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-8.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Miston Wilson</p>
+
+                                            <div class="bookmark-container">
+                                                <i class="bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card">
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-node.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body d-flex flex-column">
+                                        <p class="card-text">Beginning Node.js, Express & MongoDB Development</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">2h 00m</p>
+                                            <i class="bi bi-bar-chart-fill  text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Intermediate</p>
+
+
+                                        </div>
+                                        <div class=" mt-3">
+                                            <span class="icons d-flex">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star star"></i>
+
+                                                <p class="m-0 ms-2 star ">4.0</p>
+                                                <p class="ms-2 gray small ">(15,700)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3">
+                                            <p class="m-0">$800</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$950</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-3.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class="align-self-end ">Sina Ray</p>
+
+                                            <div class="bookmark-container">
+                                                <i class=" bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-lg-3">
+                                <div class="card ">
+
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-laravel.jpg" class="card-img-top"
+                                        alt="...">
+
+                                    <div class="card-body d-flex flex-column">
+                                        <p class="card-text">Laravel:The Ultimate Beginner's Guide to Learn</p>
+                                        <div class="icons d-flex">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">1h 00m</p>
+                                            <i class="bi bi-bar-chart-fill text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Beginner</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex ">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+
+
+                                                <p class="m-0 ms-2 star">4.5</p>
+                                                <p class="ms-2 gray small ">(2,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3 ">
+                                            <p class="m-0">$170</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$220</del></p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-7.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Sobo Rikhan</p>
+
+                                            <div class="bookmark-container">
+                                                <i class=" bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  ">
+                        <div class="row  d-flex align-items-stretch">
+                            <div class="col-6 col-lg-3">
+                                <div class="card ">
+
+                                    <img src="./W3-P1-Assets-Esercizi/assets/course-laravel.jpg" class="card-img-top"
+                                        alt="...">
+
+                                    <div class="card-body d-flex flex-column">
+                                        <p class="card-text">Laravel:The Ultimate Beginner's Guide to Learn</p>
+                                        <div class="icons d-flex ">
+
+                                            <i class="bi bi-clock"></i>
+                                            <p class="m-0 ms-2">1h 00m</p>
+                                            <i class="bi bi-bar-chart-fill  text-primary ms-2"></i>
+                                            <p class="m-0 ms-2">Beginner</p>
+
+
+                                        </div>
+                                        <div class="mt-3">
+                                            <span class="icons d-flex ">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-half star"></i>
+
+
+                                                <p class="m-0 ms-2 star">4.5</p>
+                                                <p class="ms-2 gray small ">(7,500)</p>
+                                            </span>
+
+                                        </div>
+                                        <div class="icons d-flex  mt-3 ">
+                                            <p class="m-0">$170</p>
+                                            <p class="text-muted m-0 ms-1"><del class="small gray">$220</del>
+                                            </p>
+                                        </div>
+                                        <div class="author d-flex  justify-content-between">
+
+                                            <div>
+                                                <img src="./W3-P1-Assets-Esercizi/assets/avatar-4.jpg"
+                                                    class="img-fluid ">
+                                            </div>
+                                            <p class=" align-self-end ">Brooklyn Simmons</p>
+
+                                            <div class="bookmark-container">
+                                                <i class=" bi bi-bookmark gray bookmark"></i>
+                                                <span><i class="bi bi-bookmark-fill bookmark-fill gray "></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev ml-0   " type="button" data-bs-target="#carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next ml-0  " type="button" data-bs-target="#carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container px-5 px-xl-3">
+            <div class="row no-gutters border-top py-3">
+                <div class="col-12 col-md-6 text-center text-md-left">
+                    <span class="font-sm">© 2022 Geeks. All Rights Reserved.</span>
+                </div>
+                <div class="col-12 col-md-6">
+                    <ul class="nav justify-content-center justify-content-md-end font-sm">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feedbacks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
